@@ -3,7 +3,7 @@
 :root {
   --bg-color: #ECF2FF;
   --text-color: #2B283A;
-  --title-color: #4A4E74;
+  --title-color: blue;
 }
 
 
@@ -37,6 +37,10 @@ h1 {
 }
 
 /* How can I make my other section titles blue too? */
+section h2,
+section h3 {
+  color: var(--title-color);
+}
 
 .fireworks {
   text-align: center;
